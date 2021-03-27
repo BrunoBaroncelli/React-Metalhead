@@ -41,7 +41,7 @@ export default function Home() {
         <Loading />
       ) : (
         <div className="container">
-          <FaHome size={30} onClick={() => (window.location.href = "https://react-metalhead.vercel.app/")}/>
+          <FaHome size={30} onClick={() => (window.location.href = "https://nextjs-metalhead.vercel.app")}/>
           <S.Form onSubmit={handleSubmit(handleLogin)}>
             <S.BoxLogin>
               <S.BoxInput>

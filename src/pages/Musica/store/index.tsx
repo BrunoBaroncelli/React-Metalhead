@@ -118,7 +118,7 @@ const MusicaStore = () => {
             </div>
             <div>
               <label htmlFor="genero">Gênero: </label>
-              <Input
+              <Textarea
                 name="genero"
                 id="genero"
                 value={musica.genero || ""}
